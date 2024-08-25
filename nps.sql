@@ -57,6 +57,7 @@ nps_final AS (
         END AS nps_value_detratoras,
         -- Calcula a diferença em meses entre a data atual e `local_start_time`
         DATE_DIFF(CURRENT_DATE, DATE(local_start_time), MONTH) AS M_DIFF,
+        -- A estrutura de diferencial de tempo (d_diff, m_diff e w_diff) pode servir imensamente na manutenção do código e seleção simplificada de informações, não sendo necessário filtrar um range de data a cada mês que vira, por exemplo, e adotando sempre o M_diff igual a zero, para trazer dados do mês presente.
         -- Calcula a diferença em semanas entre a data atual e `local_start_time`
         DATE_DIFF(CURRENT_DATE, DATE(local_start_time), WEEK(SUNDAY)) AS W_DIFF,
         -- Calcula a diferença em dias entre a data atual e `local_start_time`
