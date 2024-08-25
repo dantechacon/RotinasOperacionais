@@ -12,6 +12,7 @@ Sugestões e dúvidas, estou à disposição. Feedbacks são sempre bem vindos!
 Atenciosamente,
 
 Dante Chacon.
+
 [Linkedin - Dante Chacon](https://www.linkedin.com/in/dante-costa-chacon/)
 
 (Excel | SQL | Power BI | Storytelling)
